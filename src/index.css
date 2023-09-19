@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Great+Vibes&family=Inter:wght@400;500;700&family=Quicksand&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scrollbar-color: white;
+  background: #f0f0f0;
+}
+
+.colored-border {
+  background: linear-gradient(#f0f0f0, #f0f0f0) padding-box,
+    linear-gradient(to right, #77d4ff, #f680b1 ) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+}
