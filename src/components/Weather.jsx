@@ -57,7 +57,7 @@ function error() {
           loading
             ? "justify-center"
             : "flex-col gap-3 lg:flex-row justify-around"
-        }   my-[3rem] mb-0  sm:p-[3rem] items-start`}
+        }   my-[3rem] mb-0  sm:p-[3rem] items-center lg:items-start`}
       >
         <div className="flex flex-col h-min  w-min p-4 gap-2 border-[4px] border-[#5cb2c1] shadow-lg shadow-[#ab88d3a7] rounded-[0.9rem]">
           <div className="w-[80vw] mid:w-[20rem] lg:w-[22rem] flex  justify-center">
