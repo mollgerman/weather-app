@@ -23,7 +23,7 @@ export default function Forecast ({ results }) {
         return (
           <div
             key={day.date_epoch}
-            className="border-[4px] border-[#ab88d3] rounded-[1rem] m-1 my-3 p-1 px-3 flex  w-[95vw] mid:w-[23rem] sm:w-[31rem] md:w-[35rem] lg:w-[33rem] xl:w-[35rem] flex-col shadow-md shadow-[#5cb2c17f] bg-[#f0f0f0]"
+            className="border-[4px] border-[#ab88d3] rounded-[1rem] m-1 my-3 mt-0 p-1 px-3 flex  w-[95vw] mid:w-[23rem] sm:w-[31rem] md:w-[35rem] lg:w-[33rem] xl:w-[35rem] flex-col shadow-md shadow-[#5cb2c17f] bg-[#f0f0f0]"
           >
             <div className="flex justify-between">
               <p className="text-gray-900 text-[0.9rem] ">{parsedDate}</p>

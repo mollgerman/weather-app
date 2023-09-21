@@ -57,10 +57,10 @@ function error() {
           loading
             ? "justify-center"
             : "flex-col gap-3 lg:flex-row justify-around"
-        }   my-[3rem] mb-0  sm:p-[3rem] items-center`}
+        }   my-[3rem] mb-0  sm:p-[3rem] items-start`}
       >
         <div className="flex flex-col h-min  w-min p-4 gap-2 border-[4px] border-[#5cb2c1] shadow-lg shadow-[#ab88d3a7] rounded-[0.9rem]">
-          <div className="w-[80vw] mid:w-[20rem] lg:w-[22rem] flex justify-center">
+          <div className="w-[80vw] mid:w-[20rem] lg:w-[22rem] flex  justify-center">
             <button
               className="transition ease-in-out  px-4 lg:px-6 py-1 rounded-[50px] border-[#5cb2c1] border-[3px] hover:scale-105 ring ring-transparent hover:ring-[#5cb2c1] hover:ring-offset-1 hover:border-[#f0f0f0]"
               onClick={handleSearch}
