@@ -56,6 +56,7 @@ export default function Forecast ({ results }) {
                   <img
                     className="w-[2rem] h-full  mr-2"
                     src={day.day.condition.icon}
+                    alt={day.day.condition.text}
                   />
                   <p className="pt-1 text-gray-900">{day.day.condition.text}</p>
                 </div>

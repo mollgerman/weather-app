@@ -29,7 +29,7 @@ const CurrentWeather = ({ results }) => {
         </div>
 
         <div className="flex gap-1 justify-start">
-          <img className="w-[3rem] h-full  mr-2" src={results.condition.icon} />
+          <img className="w-[3rem] h-full  mr-2" src={results.condition.icon} alt={results.condition.text}/>
           <h3 className="text-[1.5em] pt-1 text-gray-700 self-center">
             {results.condition.text}
           </h3>
